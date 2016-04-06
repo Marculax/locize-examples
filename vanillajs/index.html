@@ -8,18 +8,19 @@
 
 		<script src="https://cdn.rawgit.com/locize/locizify/master/locizify.js"></script>
 		<script>
-		window.locizify.init({
-      debug: true,
-      saveMissing: true,
-      fallbackLng: 'en',
-      backend: {
-        referenceLng: 'en',
-        apiKey: 'b42535c3-21e8-42c7-bddf-0edac62f0d95',
-        loadPath: '4ab2ac91-f24a-4c47-b3d9-cd2995742840/latest/{{lng}}/{{ns}}',
-        addPath: 'https://e6fnb5nbs4.execute-api.eu-west-1.amazonaws.com/dev/missing/4ab2ac91-f24a-4c47-b3d9-cd2995742840/latest/{{lng}}/{{ns}}'
-      }
-    });
-		</script>
+			window.locizify.init({
+				debug: true,
+				saveMissing: true,
+				fallbackLng: 'en',
+				backend: {
+					referenceLng: 'en',
+					apiKey: '16d6a000-a01b-4ab3-966f-89d31451e0cd',
+					projectId: '7b81b9a1-fce7-4a9d-8fa9-2ace565774d0',
+					loadPath: 'https://api-dev.locize.io/{{projectId}}/latest/{{lng}}/{{ns}}',
+					addPath: 'https://o1quew6170.execute-api.eu-west-1.amazonaws.com/dev/missing/{{projectId}}/latest/{{lng}}/{{ns}}'
+				}
+			});
+	  </script>
 	</head>
 	<body>
 		<section class="todoapp">
