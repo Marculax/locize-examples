@@ -10,16 +10,16 @@
 		<script>
 			window.locizify.init({
 				debug: true,
-				saveMissing: true,
-				fallbackLng: 'en',
-				backend: {
-					referenceLng: 'en',
-					apiKey: '16d6a000-a01b-4ab3-966f-89d31451e0cd',
-					projectId: '7b81b9a1-fce7-4a9d-8fa9-2ace565774d0',
-					// version: 'staging',
-					loadPath: 'https://api-dev.locize.io/{{projectId}}/{{version}}/{{lng}}/{{ns}}',
-					addPath: 'https://api-dev.locize.io/missing/{{projectId}}/{{version}}/{{lng}}/{{ns}}'
-				}
+	      saveMissing: true,
+	      fallbackLng: 'en',
+				// version: 'staging',
+	      backend: {
+	        referenceLng: 'en',
+	        apiKey: '3f608f6f-7b4a-4d7f-8374-13dcd31ecf86',
+	        projectId: '2596e805-2ce2-4e21-9481-ee62202ababd',
+	        loadPath: 'https://api-dev.locize.io/2596e805-2ce2-4e21-9481-ee62202ababd/latest/{{lng}}/{{ns}}',
+	        addPath: 'https://api-dev.locize.io/missing/2596e805-2ce2-4e21-9481-ee62202ababd/latest/{{lng}}/{{ns}}'
+	      }
 			});
 	  </script>
 	</head>

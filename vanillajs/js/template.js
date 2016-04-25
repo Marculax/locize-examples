@@ -34,7 +34,7 @@
 		=	'<li data-id="{{id}}" class="{{completed}}">'
 		+		'<div class="view">'
 		+			'<input class="toggle" type="checkbox" {{checked}}>'
-		+			'<label>{{title}}</label>'
+		+			'<label translated>{{title}}</label>'
 		+			'<button class="destroy"></button>'
 		+		'</div>'
 		+	'</li>';
@@ -91,7 +91,7 @@
 	Template.prototype.itemCounter = function (activeTodos) {
 		var plural = activeTodos === 1 ? '' : 's';
 
-		return '<strong>' + activeTodos + '</strong> item' + plural + ' left';
+		return '<strong translated>' + activeTodos + '</strong> item' + plural + ' left';
 	};
 
 	/**
