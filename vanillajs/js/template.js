@@ -91,7 +91,7 @@
 	Template.prototype.itemCounter = function (activeTodos) {
 		var plural = activeTodos === 1 ? '' : 's';
 
-		return '<strong translated>' + activeTodos + '</strong> item' + plural + ' left';
+		return '<strong translated>' + activeTodos + '</strong>&nbsp;<span i18next-options=\'{ "count": ' + activeTodos + ' }\'>item left</span>';
 	};
 
 	/**
