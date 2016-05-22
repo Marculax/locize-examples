@@ -1,37 +1,25 @@
 # React TodoMVC Example
 
-> React is a JavaScript library for creating user interfaces. Its core principles are declarative code, efficiency, and flexibility. Simply specify what your component looks like and React will keep it up-to-date when the underlying data changes.
+The react locize TodoMVC uses:
 
-> _[React - facebook.github.io/react](http://facebook.github.io/react)_
+- [locize.js](https://github.com/locize/locize) as bundled i18next (backend and language detection)
+- [react-i18next](https://github.com/i18next/react-i18next) to use i18next in react
 
+The sample uses our project as default. You can change the settings [here](https://github.com/locize/locize-examples/blob/master/react/js/i18n.js) to bind your own project for testing.
 
-## Learning React
+## Run the example
 
-The [React getting started documentation](http://facebook.github.io/react/docs/getting-started.html) is a great way to get started.
+install node modules
 
-Here are some links you may find helpful:
+```sh
+npm install
+```
 
-* [Documentation](http://facebook.github.io/react/docs/getting-started.html)
-* [API Reference](http://facebook.github.io/react/docs/reference.html)
-* [Blog](http://facebook.github.io/react/blog/)
-* [React on GitHub](https://github.com/facebook/react)
-* [Support](http://facebook.github.io/react/support.html)
+Serve the root directory of this repository, you can use [http-server](https://github.com/indexzero/http-server):
 
-Articles and guides from the community:
+```sh
+npm install http-server -g
+http-server -s -p 9000
+```
 
-* [How is Facebook's React JavaScript library](http://www.quora.com/React-JS-Library/How-is-Facebooks-React-JavaScript-library)
-* [React: Under the hood](http://www.quora.com/Pete-Hunt/Posts/React-Under-the-Hood)
-
-Get help from other React users:
-
-* [React on StackOverflow](http://stackoverflow.com/questions/tagged/reactjs)
-* [Discussion Forum](https://discuss.reactjs.org/)
-
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
-
-
-## Running
-
-The app is built with [JSX](http://facebook.github.io/react/docs/jsx-in-depth.html) and compiled at runtime for a lighter and more fun code reading experience. As stated in the link, JSX is not mandatory.
-
-To run the app, spin up an HTTP server (e.g. `python -m SimpleHTTPServer`) and visit http://localhost/.../myexample/.
+open [http://localhost:9000/](http://localhost:9000/) or [http://localhost:9000/?lng=de](http://localhost:9000/?lng=de)

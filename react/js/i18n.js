@@ -1,7 +1,4 @@
-i18next
-  .use(window.i18nextLocizeBackend)
-  .use(window.i18nextBrowserLanguageDetector)
-  .init({
+window.locize.init({
     debug: true,
     saveMissing: true,
     fallbackLng: 'en',

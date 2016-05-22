@@ -182,7 +182,7 @@ var app = window.app || {};
 
 	function render() {
 		window.React.render(
-			<I18nProvider i18n={window.i18next}><EnhancedTodoApp model={model}/></I18nProvider>,
+			<I18nProvider i18n={window.locize}><EnhancedTodoApp model={model}/></I18nProvider>,
 			document.getElementsByClassName('todoapp')[0]
 		);
 	}

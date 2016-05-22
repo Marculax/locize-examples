@@ -1,9 +1,10 @@
 # Vanilla JavaScript TodoMVC Example
 
-> JavaScript® (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, most known as the scripting language for Web pages, but used in many non-browser environments as well such as node.js or Apache CouchDB.
+The vanilla locize TodoMVC uses:
 
-> _[JavaScript - developer.mozilla.org](http://developer.mozilla.org/en-US/docs/JavaScript)
+- [locizify](https://github.com/locize/locizify) to enable localization
 
+The sample uses our project as default. You can change the settings [here](https://github.com/locize/locize-examples/blob/master/vanillajs/index.html) to bind your own project for testing.
 
 ## Run the example
 
@@ -13,3 +14,5 @@ Serve the root directory of this repository, you can use [http-server](https://g
 npm install http-server -g
 http-server -s -p 9000
 ```
+
+open [http://localhost:9000/](http://localhost:9000/) or [http://localhost:9000/?lng=de](http://localhost:9000/?lng=de)
