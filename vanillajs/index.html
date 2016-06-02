@@ -5,23 +5,6 @@
 		<title>VanillaJS • TodoMVC</title>
 		<link rel="stylesheet" href="node_modules/todomvc-common/base.css">
 		<link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
-
-		<script src="https://cdn.rawgit.com/locize/locizify/master/locizify.js"></script>
-		<script>
-			window.locizify.init({
-				debug: true,
-	      saveMissing: true,
-	      fallbackLng: 'en',
-	      backend: {
-	        referenceLng: 'en',
-	        apiKey: '3f608f6f-7b4a-4d7f-8374-13dcd31ecf86',
-	        projectId: '2596e805-2ce2-4e21-9481-ee62202ababd',
-					//version: 'staging',
-					loadPath: 'https://api-dev.locize.io/{{projectId}}/{{version}}/{{lng}}/{{ns}}',
-		      addPath: 'https://api-dev.locize.io/missing/{{projectId}}/{{version}}/{{lng}}/{{ns}}'
-	      }
-			});
-	  </script>
 	</head>
 	<body>
 		<section class="todoapp">
@@ -64,5 +47,6 @@
 		<script src="js/view.js"></script>
 		<script src="js/controller.js"></script>
 		<script src="js/app.js"></script>
+		<script id="locizify" projectid="1fb2c780-f038-4ffe-b988-5d9fe2e3ba2d" referencelng="en" fallbacklng="en" src="https://cdn.locize.io/locizify.min.js" ></script>
 	</body>
 </html>
