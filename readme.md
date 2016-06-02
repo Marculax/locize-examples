@@ -1,6 +1,6 @@
 # locize-examples
 
-The samples take the samples from [TodoMVC](http://todomvc.com/) and extends them to be localized using locize.com.
+The samples take the samples from [TodoMVC](http://todomvc.com/) and extends them to be localized using [locize](http://locize.com).
 
 ## Samples
 
