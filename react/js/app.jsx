@@ -177,7 +177,7 @@ var app = window.app || {};
 	// add props.t
 	var translate = window.reactI18next.translate;
 
-	var EnhancedTodoApp = translate('translation')(TodoApp);
+	var EnhancedTodoApp = translate('translation', { wait: true })(TodoApp);
 	var model = new window.app.TodoModel('react-todos');
 
 	function render() {

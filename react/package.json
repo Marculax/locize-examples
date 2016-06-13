@@ -7,7 +7,7 @@
     "locize": "^0.3.0",
     "react": "^0.14.0",
     "react-dom": "^0.14.8",
-    "react-i18next": "^1.4.0",
+    "react-i18next": "^1.5.0",
     "throw-in-the-towel": "^2.0.2",
     "todomvc-app-css": "^2.0.0",
     "todomvc-common": "^1.0.1"
