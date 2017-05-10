@@ -14,7 +14,7 @@ const languageDetector = {
 
 i18n
   .use(LocizeBackend) // loads translations from locize.com -> change to i18next-xhr-backend to load them from your own server
-  .use(languageDetector)
+  .use(languageDetector) // for non expo apps use https://github.com/DylanVann/i18next-react-native-language-detector
   .init({
     fallbackLng: 'en',
     load: 'languageOnly', // optional - load only languages without regions
