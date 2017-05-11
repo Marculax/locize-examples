@@ -1,5 +1,19 @@
 # introduction
 
+This project shows how to translate your react-native / expo.io app. It loads the translations directly from [locize.com](http://locize.com) the localization as a service platform.
+
+The sample is built using [i18next](http://i18next.com) framework and uses [react-i18next](https://github.com/i18next/react-i18next) for i18n instrumentation.
+
+The sample is kept as straight forward as possible but adds the [react-navigation](https://reactnavigation.org/) to show using react-i18next with navigation.
+
+Your project could be adapted to:
+
+- load translations from your server, using the [i18next-xhr-backend](https://github.com/i18next/i18next-xhr-backend)
+- bundle the translations in your app adding translations on [i18next.init](http://i18next.com/docs/) or by calling [i18next.addResourceBundle](http://i18next.com/docs/api/#add-resource-bundle)
+- using some asyncStorage to cache translations like we used the [localstorage](https://github.com/i18next/i18next-localStorage-cache) for web
+
+
+
 # was built using create-react-native-app
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
