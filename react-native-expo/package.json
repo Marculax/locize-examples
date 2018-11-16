@@ -19,12 +19,12 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "16.0.0",
-    "i18next": "8.2.1",
+    "expo": "^31.0.4",
+    "i18next": "11.9.0",
     "i18next-locize-backend": "1.0.0",
-    "react": "16.0.0-alpha.6",
-    "react-i18next": "3.1.1",
-    "react-native": "0.43.4",
-    "react-navigation": "1.0.0-beta.9"
+    "react": "16.5.0",
+    "react-i18next": "8.0.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.1.tar.gz",
+    "react-navigation": "^2.18.2"
   }
 }
